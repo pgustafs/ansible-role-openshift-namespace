@@ -1,0 +1,8 @@
+---
+# tasks file for openshift-namespace
+- name: Create a k8s namespace
+  kubernetes.core.k8s:
+    name: "{{ openshift_namespace_name }}"
+    api_version: v1
+    kind: Namespace
+    state: "{{ openshift_namespace_state }}"

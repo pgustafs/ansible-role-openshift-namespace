@@ -1,0 +1,8 @@
+---
+# defaults file for openshift-namespace
+
+# The name of the namespace
+openshift_namespace_name: "testing "
+
+# present, absent, patched 
+openshift_namespace_state: present
