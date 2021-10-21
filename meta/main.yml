@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: openshift-namespace
+  role_name: openshift_namespace
   author: Peter Gustafsson
   description: My Description
   license: MIT
